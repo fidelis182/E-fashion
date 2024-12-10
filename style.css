@@ -236,8 +236,8 @@ body{
 }
 #product1 .pro .custom-icon {
     display: inline-block; /* Ensures proper rendering as a block element */
-    width: 40px; /* Circle width */
-    height: 40px; /* Circle height */
+    width: 40px !important; /* Circle width */
+    height: 40px !important; /* Circle height */
     line-height: 40px; /* Aligns the icon vertically */
     border-radius: 50%; /* Makes the element circular */
     font-size: 20px; /* Adjusts icon size inside the circle */
@@ -286,4 +286,80 @@ body{
     color: #fff;
   }
   
+
+  /* New Arrival section */
+  #new-arrivals{
+    text-align: center;
+  }
+  #new-arrivals .arrival-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  #new-arrivals .arrival:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+  #new-arrivals .arrival{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px ;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    position: relative;
+  }
+  #new-arrivals .arrival img{
+    width: 100%;
+    border-radius: 20px;
+}
+#new-arrivals .arrival .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#new-arrivals .arrival .des span{
+    color: #606063;
+    font-size: 12px;
+}
+#new-arrivals .arrival .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+#new-arrivals .arrival .des i{
+    font-size: 12px;
+    color: rgb(243, 181,25);
+}
+#new-arrivals .arrival .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+
+}
+#new-arrivals .arrival .custom-icon {
+    display: inline-block; /* Ensures proper rendering as a block element */
+    width: 40px !important; /* Circle width */
+    height: 40px !important; /* Circle height */
+    line-height: 40px; /* Aligns the icon vertically */
+    border-radius: 50%; /* Makes the element circular */
+    font-size: 20px; /* Adjusts icon size inside the circle */
+    text-align: center; /* Centers the icon horizontally */
+    font-weight: 500; /* Optional: Font weight (doesn't affect Font Awesome icons) */
+    background-color: #e8f6ea; /* Circle background */
+    color: #088178; /* Icon color */
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+  }
+  
+  #new-arrivals .arrival .custom-icon:hover {
+    background-color: #cce7d0; /* Slightly darker background on hover */
+    color: #066b57; /* Darker icon color on hover */
+  }
   
