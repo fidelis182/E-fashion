@@ -128,6 +128,9 @@ body{
   display: none;
   align-items: center;
 }
+#close {
+  display: none;
+}
 /*Home page */
 #hero{
     background-image: url("img/hero4.png");
@@ -584,6 +587,10 @@ body{
       background-color: #E3E6F3;
       box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
       padding: 80px 0 0 10px;
+      transition: 0.3s;
+    }
+    #navbar.active{
+      right: 0px;
     }
     #navbar li {
       margin-bottom: 25px;
@@ -596,5 +603,16 @@ body{
       color: #1a1a1a;
       font-size: 24px;
       padding-left: 20px;
+    }
+    #close {
+      display: initial; /*To make it visible */
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      color: #222;
+      font-size: 24px;
+    }
+    #lg-bag {
+      display: none;
     }
   }
