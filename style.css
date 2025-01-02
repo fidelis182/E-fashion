@@ -404,7 +404,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     background-image: url(img/banner/b17.jpg);
-    min-width: 49%;
+    min-width: 580px;
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -574,6 +574,11 @@ body{
 
   /*Start media query making page responsive*/
   @media (max-width:799px) {
+
+    .section-p1 {
+      padding: 40px 40px;
+    }
+
     #navbar {
       display: flex;
       flex-direction: column;
@@ -614,5 +619,50 @@ body{
     }
     #lg-bag {
       display: none;
+    }
+/*Making hero section resnsive*/
+    #hero {
+      height: 70vh;
+      padding: 0 80px;
+      background-position: top 30% right 30%;
+    }
+/*Making feature section resnsive*/
+    #feature {
+      justify-content: center;
+    }
+    #feature .fe-box {
+      margin: 15px 15px;
+    }
+
+    /*Making product section resnsive*/
+    #product1 .pro-container {
+      
+      justify-content: center;
+    }
+    #product1 .pro {
+      margin: 15px;
+     
+    }
+
+      /*Making banner section resnsive*/
+    #banner {
+      height: 20vh;
+    }
+
+    #sm-banner .banner-box {
+      min-width: 100%;
+      height: 30vh;
+
+    }
+    #banner3 {
+      padding: 0 40px;
+    }
+    #banner3 .banner-box {
+      width: 28%;
+    }
+
+          /*Making newsletter form section resnsive*/
+    #newsletter .form {
+      width: 70%;
     }
   }
