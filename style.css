@@ -797,7 +797,14 @@ body{
       font-size: 16px;
       margin-right: 10px;
     }
+
+    #prodetails .single-product-details input:focus{
+      outline: none;
+    }
     #prodetails .single-product-details button{
       background-color: #088178;
       color: #fff;
+    }
+    #prodetails .single-product-details span{
+      line-height: 25px;
     }
