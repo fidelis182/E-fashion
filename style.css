@@ -753,7 +753,25 @@ body{
       border-radius: 20px;
     }
 
+/* about page */
 
+#about-head {
+
+  flex-direction: column;
+}
+
+#about-head img {
+	width: 100%;
+  margin-bottom: 20px;
+
+}
+#about-head div {
+	width: 100%;
+  padding-left: 0px;
+}
+#about-app .video {
+	width: 100%;
+}
 
 
 
